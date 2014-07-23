@@ -1,0 +1,10 @@
+[
+  {
+    "caption": "Rails ERBify Text",
+    "command": "rails_erbify"
+  },
+  {
+    "caption": "Rails I18nify Text",
+    "command": "rails_i18nify"
+  }
+]

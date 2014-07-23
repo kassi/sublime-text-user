@@ -1,0 +1,20 @@
+{
+    "schema_version": "1.1",
+    "packages": [
+        {
+            "name": "Logs Colorize",
+            "author": "Uoc Nguyen",
+            "description": "View log files in colors",
+            "homepage": "https://github.com/tiger2wander/SublimeText2-Logs",
+            "last_modified": "2012-01-14 21:30:03",
+            "platforms": {
+                "*": [
+                    {
+                        "version": "1.0.0",
+                        "url": "https://nodeload.github.com/tiger2wander/SublimeText2-Logs/zip/1.0.0"
+                    }
+                ]
+            }
+        }
+    ]
+}

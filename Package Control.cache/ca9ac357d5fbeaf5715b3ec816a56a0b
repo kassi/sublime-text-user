@@ -1,0 +1,19 @@
+{
+    "schema_version" : "2.0",
+    "packages" : [
+        {
+            "details" : "https://github.com/apophys/SublimeManpage",
+            "releases" : [
+                {
+                    "sublime_text" : "<3000",
+                    "details" : "https://github.com/apophys/SublimeManpage/tags"
+                },
+                {
+                    "sublime_text" : ">2999",
+                    "details" : "https://github.com/apophys/SublimeManpage/tree/Sublime-Text-3"
+                }
+            ]
+                
+        }
+    ]
+}

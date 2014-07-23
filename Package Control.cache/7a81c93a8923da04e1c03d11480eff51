@@ -1,0 +1,26 @@
+{
+    "schema_version": "2.0",
+
+    "packages": [
+
+        {
+            "name": "PHP Getters and Setters",
+            "author": "Nuno Franco da Costa",
+            "details": "https://github.com/francodacosta/sublime-php-getters-setters",
+            "labels": ["auto-complete", "php", "snippets", "code generation", "text manipulation", "formatting"],
+            "releases": [
+                {
+                    "date": "2013-09-06 00:00:00",
+                    "version": "1.0.10",
+                    "sublime_text": "<3000",
+                    "url": "https://nodeload.github.com/francodacosta/sublime-php-getters-setters/zip/1.0.10"
+                },
+                {
+                    "sublime_text": ">=3000",
+                    "details": "https://github.com/francodacosta/sublime-php-getters-setters/tags"
+                }
+            ]
+        }
+        
+    ]
+}

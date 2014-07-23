@@ -1,0 +1,29 @@
+{
+	"schema_version": "2.0",
+	"packages": [
+
+		{
+			"name": "SublimeREPL",
+			"description": "SublimeREPL - run an interpreter inside ST2 (Clojure, CoffeeScript, F#, Groovy, Haskell, Lua, MozRepl, NodeJS, Python + virtualenv, R, Ruby, Scala...)",
+			"author": "Wojciech Bederski (wuub)",
+			"homepage": "https://github.com/wuub/SublimeREPL",
+			"details": "https://github.com/wuub/SublimeREPL",
+			"releases": [{
+				"sublime_text": "*",
+				"details": "https://github.com/wuub/SublimeREPL/tags"
+			}]
+		},
+                {
+                    "name": "requirementstxt",
+                    "description": "requirements.txt support for Python",
+                    "author": "Wojciech Bederski (wuub)",
+                    "homepage": "https://github.com/wuub/requirementstxt",
+                    "details": "https://github.com/wuub/requirementstxt",
+                    "releases": [{
+				"sublime_text": "*",
+                    		"details": "https://github.com/wuub/requirementstxt/tags"
+			}]
+              }
+	]
+}
+

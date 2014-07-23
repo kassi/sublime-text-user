@@ -1,0 +1,20 @@
+{
+	"schema_version": "1.2",
+	"packages": [
+		{
+			"name": "DLX Syntax",
+			"description": "Provides DLX Syntax for Sublime Text 2.",
+			"author": "Daniel O'Brien",
+			"homepage": "https://github.com/danielobrien/sublime-DLX-syntax",
+			"last_modified": "2013-03-20 12:17:26",
+			"platforms": {
+				"*": [
+					{
+						"version": "1.0.0",
+						"url": "https://nodeload.github.com/danielobrien/sublime-DLX-syntax/zip/1.0.0"
+					}
+				]
+			}
+		}
+	]
+}

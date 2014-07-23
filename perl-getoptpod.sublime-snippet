@@ -1,0 +1,40 @@
+<snippet>
+  <content><![CDATA[
+=head1 NAME
+
+${1:name.pl}
+
+=head1 SYNOPSIS
+
+  ${1:name.pl} [options] <argument>...
+
+=head1 OPTIONS AND ARGUMENTS
+
+=over 8
+
+=item B<--help|-h>
+
+Print this help.
+
+=item B<--verbose|-v>
+
+Increases the verbosity level.
+Can be given multiple times.
+
+=back
+
+=head1 DESCRIPTION
+
+To be described.
+
+=head1 AUTHOR
+
+Karsten Silkenbäumer
+
+=cut
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>pod</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.perl</scope>
+</snippet>

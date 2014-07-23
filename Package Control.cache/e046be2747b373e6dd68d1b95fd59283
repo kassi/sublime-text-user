@@ -1,0 +1,31 @@
+{
+    "schema_version": "2.0",
+    "packages": [
+        {
+            "name": "SublimeTmpl",
+            "description": "Create File From Templates for ST2/ST3.",
+            "author": "kairyou",
+            "homepage": "https://github.com/kairyou/SublimeTmpl",
+            "labels": ["file creation"],
+            "details": "https://github.com/kairyou/SublimeTmpl",
+            "releases": [
+                {
+                    "sublime_text": "*",
+                    "details": "https://github.com/kairyou/SublimeTmpl/tags"
+                }
+            ]
+        },
+        {
+            "name": "SublimeSimpleSync",
+            "description": "Simple ST2/ST3 plugin for synchronize local and remote files",
+            "author": "tnhu, gfreezy, kairyou",
+            "details": "https://github.com/kairyou/SublimeSimpleSync",
+            "releases": [
+                {
+                    "sublime_text": "*",
+                    "details": "https://github.com/kairyou/SublimeSimpleSync/tags"
+                }
+            ]
+        }
+    ]
+}

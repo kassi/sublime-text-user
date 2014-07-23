@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.2",
+  "packages": [
+    {
+      "name": "Scalariform",
+      "description": "The wrapper of Scalariform - scala source code formatter",
+      "author": "ikeike443",
+      "homepage": "https://github.com/ikeike443/Sublime-Scalariform",
+      "last_modified": "2013-04-14 23:50:00+09:00",
+      "platforms": {
+        "*": [
+          {
+            "version": "0.3",
+            "url": "https://nodeload.github.com/ikeike443/Sublime-Scalariform/zip/0.3"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+	"schema_version": "1.1",
+	"packages": [
+		{
+			"name": "Format SQL",
+			"author": "Du Song",
+			"description": "Formatting SQL statement to a more readable form by using python-sqlparse library",
+			"homepage": "https://github.com/freewizard/SublimeFormatSQL",
+			"last_modified": "2012-02-05 00:00:00",
+			"platforms": {
+				"*": [
+					{
+						"version": "1.0.1",
+						"url": "https://codeload.github.com/freewizard/SublimeFormatSQL/zip/master"
+					}
+				]
+			}
+		},
+		{
+			"name": "Goto Folder",
+			"author": "Du Song",
+			"description": "Listing and searching project folders just like Goto Anything",
+			"homepage": "https://github.com/freewizard/SublimeGotoFolder",
+			"last_modified": "2013-04-16 00:08:00",
+			"platforms": {
+				"*": [
+					{
+						"version": "1.0.3",
+						"url": "https://codeload.github.com/freewizard/SublimeGotoFolder/zip/master"
+					}
+				]
+			}
+		},
+		{
+			"name": "Goto Tab",
+			"author": "Du Song",
+			"description": "Listing and searching open tabs just like Goto Anything",
+			"homepage": "https://github.com/freewizard/SublimeGotoTab",
+			"last_modified": "2013-05-31 00:08:00",
+			"platforms": {
+				"*": [
+					{
+						"version": "1.0.0",
+						"url": "https://codeload.github.com/freewizard/SublimeGotoTab/zip/master"
+					}
+				]
+			}
+		}
+	]
+}

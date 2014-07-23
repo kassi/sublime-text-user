@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+diag(Data::Dumper->new([ ${1:var} ],[ '*$1' ])->Sortkeys(1)->Dump());
+]]></content>
+    <tabTrigger>ddd</tabTrigger>
+    <scope>source.perl</scope>
+</snippet>

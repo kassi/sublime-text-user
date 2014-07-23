@@ -1,0 +1,22 @@
+{
+	"schema_version": "2.0",
+	"packages": [
+		{
+			"name": "DrSync",
+			"description": "A Sublime Text's plugin for settings synchronization on cloud services",
+			"author": "Sirisak Lueangsaksri (spywhere)",
+			"homepage": "https://github.com/spywhere/DrSync",
+			"readme": "https://raw.githubusercontent.com/spywhere/DrSync/master/README.md",
+			"issues": "https://github.com/spywhere/DrSync/issues",
+			"labels": ["Dropbox", "GoogleDrive", "synchronization", "utilities", "utils"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"version": "0.1.10",
+					"url": "http://digitalparticle.in.th/sublime/0.1.10/DrSync.sublime-package",
+					"date": "2014-06-10 20:08:00"
+				}
+			]
+		}
+	]
+}

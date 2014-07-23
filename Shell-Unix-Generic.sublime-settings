@@ -1,0 +1,10 @@
+{
+    "extensions":
+    [
+        ".bash_aliases",
+        ".bash_colours",
+        ".bash_environ",
+        ".bash_functns",
+        ".bash_secrets"
+    ]
+}

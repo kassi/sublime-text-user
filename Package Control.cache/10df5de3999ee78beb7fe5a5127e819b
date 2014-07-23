@@ -1,0 +1,20 @@
+{
+    "schema_version": "1.0",
+    "packages": [
+        {
+            "name": "VisSub",
+            "description": "A Sublime Plugin for Visage/VisageFX application with gradle build support",
+            "author": "Shiv Kumar Ganesh (@shivkumarganesh)",
+            "homepage": "https://github.com/shivkumarganesh/VisSub",
+            "last_modified": "2011-10-13 05:45:00",
+            "platforms": {
+                "*": [
+                    {
+                        "version": "1.0",
+                        "url": "https://nodeload.github.com/shivkumarganesh/VisSub/zipball/v1.0"
+                    }
+                ]
+            }
+        }
+    ]
+}

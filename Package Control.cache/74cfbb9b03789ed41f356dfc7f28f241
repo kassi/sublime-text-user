@@ -1,0 +1,20 @@
+{
+	"schema_version": "1.2",
+	"packages": [
+		{
+			"name": "KISSY Snippets",
+			"description": "KISSY API Snippets for Sublime Text",
+			"author": "zfkun <zfkun@msn.com>",
+			"homepage": "https://github.com/zfkun/sublime-kissy-snippets",
+			"last_modified": "2012-10-02 22:15:00",
+			"platforms": {
+				"*": [
+					{
+						"version": "1.0.9",
+						"url": "https://nodeload.github.com/zfkun/sublime-kissy-snippets/zip/v1.0.9"
+					}
+				]
+			}
+		}
+	]
+}

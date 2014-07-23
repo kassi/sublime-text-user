@@ -1,0 +1,259 @@
+{
+	"schema_version": "2.0",
+
+	"packages": [
+		{
+			"name": "Command Help",
+			"author": "Kay-Uwe (Kiwi) Lorenz (klorenz)",
+			"homepage": "http://quelltexter.org/",
+			"donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WYGR49LEGL9C8",
+			"details": "https://bitbucket.org/klorenz/sublimecommandhelp",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://bitbucket.org/klorenz/sublimecommandhelp/src/default"
+				}
+			]
+		},
+		{
+			"name": "Character Table",
+			"author": "Kay-Uwe (Kiwi) Lorenz (klorenz)",
+			"homepage": "http://quelltexter.org/",
+			"donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WYGR49LEGL9C8",
+			"details": "https://bitbucket.org/klorenz/sublimedigraph",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://bitbucket.org/klorenz/sublimedigraph/src/default"
+				}
+			],
+			"previous_names": [
+				"Digraph"
+			]
+		},
+		{
+			"name": "Dynamic Commands",
+			"author": "Kay-Uwe (Kiwi) Lorenz (klorenz)",
+			"homepage": "http://quelltexter.org/",
+			"donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WYGR49LEGL9C8",
+			"details": "https://bitbucket.org/klorenz/dynamicsublimecommands",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://bitbucket.org/klorenz/dynamicsublimecommands/src/default"
+				}
+			]
+		},
+		{
+			"name": "E-Mail",
+			"author": "Kay-Uwe (Kiwi) Lorenz (klorenz)",
+			"homepage": "http://quelltexter.org/",
+			"donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WYGR49LEGL9C8",
+			"details": "https://bitbucket.org/klorenz/sublimeemail",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://bitbucket.org/klorenz/sublimeemail/src/default"
+				}
+			]
+		},
+		{
+			"name": "Go To Definition",
+			"author": "Kay-Uwe (Kiwi) Lorenz (klorenz)",
+			"homepage": "http://quelltexter.org/",
+			"donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WYGR49LEGL9C8",
+			"details": "https://bitbucket.org/klorenz/sublimegotodefinition",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://bitbucket.org/klorenz/sublimegotodefinition/src/default"
+				}
+			]
+		},
+		{
+			"name": "MakeCommands",
+			"author": "Kay-Uwe (Kiwi) Lorenz (klorenz)",
+			"homepage": "http://quelltexter.org/",
+			"donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WYGR49LEGL9C8",
+			"labels": ["make", "command palette"],
+			"details": "https://bitbucket.org/klorenz/makecommands",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://bitbucket.org/klorenz/makecommands/src/default"
+				}
+			]
+		},
+		{
+			"name": "Makefile Improved",
+			"author": "Kay-Uwe (Kiwi) Lorenz (klorenz)",
+			"homepage": "http://quelltexter.org/",
+			"donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WYGR49LEGL9C8",
+			"details": "https://bitbucket.org/klorenz/sublimemakefileimproved",
+			"labels": ["make", "language syntax", "code navigation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://bitbucket.org/klorenz/sublimemakefileimproved/src/default"
+				}
+			]
+		},
+		{
+			"name": "Plugin Debugger",
+			"author": "Kay-Uwe (Kiwi) Lorenz (klorenz)",
+			"homepage": "http://quelltexter.org/",
+			"donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WYGR49LEGL9C8",
+			"details": "https://bitbucket.org/klorenz/plugindebugger",
+			"labels": ["Debugger", "plugin development"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://bitbucket.org/klorenz/plugindebugger/src/default"
+				}
+			]
+		},
+		{
+			"name": "Plugin UnitTest Harness",
+			"author": "Kay-Uwe (Kiwi) Lorenz (klorenz)",
+			"homepage": "http://quelltexter.org/",
+			"donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WYGR49LEGL9C8",
+			"details": "https://bitbucket.org/klorenz/sublimepluginunittestharness",
+			"labels": ["testing", "plugin development", "UnitTest", "utilities"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://bitbucket.org/klorenz/sublimepluginunittestharness/src/default"
+				}
+			]
+		},
+		{
+			"name": "Preferences Editor",
+			"author": "Kay-Uwe (Kiwi) Lorenz (klorenz)",
+			"homepage": "http://quelltexter.org/",
+			"donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WYGR49LEGL9C8",
+			"details": "https://bitbucket.org/klorenz/sublimepreferenceseditor",
+			"labels": ["utilities", "settings", "preferences"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://bitbucket.org/klorenz/sublimepreferenceseditor/src/default"
+				}
+			]
+		},
+		{
+			"author": "Kay-Uwe (Kiwi) Lorenz (klorenz)",
+			"homepage": "http://quelltexter.org/",
+			"donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WYGR49LEGL9C8",
+			"details": "https://bitbucket.org/klorenz/projectspecific",
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://bitbucket.org/klorenz/projectspecific/src/default"
+				}
+			]
+		},
+		{
+			"name": "RestructuredText Improved",
+			"author": "Kay-Uwe (Kiwi) Lorenz (klorenz)",
+			"homepage": "http://quelltexter.org/",
+			"donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WYGR49LEGL9C8",
+			"details": "https://bitbucket.org/klorenz/sublimerestructuredtextimproved",
+			"labels": ["language syntax", "code navigation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://bitbucket.org/klorenz/sublimerestructuredtextimproved/src/default"
+				}
+			],
+			"previous_names": [
+				"SublimeReStructuredText"
+			]
+		},
+		{
+			"name": "Sphinx Office",
+			"author": "Kay-Uwe (Kiwi) Lorenz (klorenz)",
+			"homepage": "http://quelltexter.org/",
+			"donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WYGR49LEGL9C8",
+			"details": "https://bitbucket.org/klorenz/sublimesphinxoffice",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://bitbucket.org/klorenz/sublimesphinxoffice/src/default"
+				}
+			],
+			"previous_names": [
+				"SphinxOffice Letter"
+			]
+		},
+		{
+			"name": "SSL",
+			"author": "Kay-Uwe (Kiwi) Lorenz (klorenz)",
+			"homepage": "http://quelltexter.org/",
+			"donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WYGR49LEGL9C8",
+			"details": "https://bitbucket.org/klorenz/sublimessl",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["linux"],
+					"details": "https://bitbucket.org/klorenz/sublimessl/src/default"
+				}
+			]
+		},
+		{
+			"name": "SyntaxHighlightTools",
+			"author": "Kay-Uwe (Kiwi) Lorenz (klorenz)",
+			"homepage": "http://quelltexter.org/",
+			"donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WYGR49LEGL9C8",
+			"details": "https://bitbucket.org/klorenz/syntaxhighlighttools",
+			"labels": ["language syntax", "plugin development", "utilities"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://bitbucket.org/klorenz/syntaxhighlighttools/src/default"
+				}
+			]
+		},
+		{
+			"name": "WrapCommand",
+			"author": "Kay-Uwe (Kiwi) Lorenz (klorenz)",
+			"homepage": "http://quelltexter.org/",
+			"donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WYGR49LEGL9C8",
+			"details": "https://bitbucket.org/klorenz/wrapcommand",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://bitbucket.org/klorenz/wrapcommand/src/default"
+				}
+			]
+		},
+		{
+			"name": "Vintageous - Region To Selection",
+			"author": "Kay-Uwe (Kiwi) Lorenz (klorenz)",
+			"homepage": "http://quelltexter.org/",
+			"donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WYGR49LEGL9C8",
+			"details": "https://bitbucket.org/klorenz/sublime-region-to-selection-vintageous",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"details": "https://bitbucket.org/klorenz/sublime-region-to-selection-vintageous/src/default"
+				}
+			],
+			"previous_names": [
+				"Region To Selection (Vintageous)"
+			]
+		},
+		{
+			"name": "Zip Browser",
+			"author": "Kay-Uwe (Kiwi) Lorenz (klorenz)",
+			"homepage": "http://quelltexter.org/",
+			"donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WYGR49LEGL9C8",
+			"details": "https://bitbucket.org/klorenz/sublimezipbrowser",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://bitbucket.org/klorenz/sublimezipbrowser/src/default"
+				}
+			]
+		}
+	]
+}

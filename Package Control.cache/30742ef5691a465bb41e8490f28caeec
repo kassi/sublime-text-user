@@ -1,0 +1,21 @@
+{
+
+    "schema_version": "1.2",
+    "packages": [
+    {
+        "name": "OctoTool",
+        "description": "Sublime Text 2 Plugin to writer and deploy Octopress",
+        "author": "royisme",
+        "homepage": "https://github.com/royisme/SublimeOctopressTool",
+        "last_modified": "2012-11-09 02:04:31",
+        "platforms": {
+            "osx": [
+            {
+                "version": "1.0.0",
+                "url": "https://nodeload.github.com/royisme/SublimeOctopressTool/zipball/v1.0.0"
+            }
+            ]
+        }
+    }
+    ]
+}

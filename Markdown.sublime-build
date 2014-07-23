@@ -1,0 +1,5 @@
+{
+    "cmd": ["python ~/Library/Python/2.7/bin/markdown2 $file"],
+    "selector": "text.html.markdown",
+    "shell": true
+}

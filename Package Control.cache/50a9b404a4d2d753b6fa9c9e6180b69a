@@ -1,0 +1,169 @@
+{
+	"schema_version": "2.0",
+	"packages": [
+		{
+			"name": "Calendar Week",
+			"details": "https://github.com/csch0/SublimeText-Calendar-Week",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/csch0/SublimeText-Calendar-Week/tags"
+				}
+			]
+		},
+		{
+			"name": "Clouds Color Schemes",
+			"details": "https://github.com/csch0/SublimeText-Clouds-Color-Schemes",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/csch0/SublimeText-Clouds-Color-Schemes/tree/master"
+				}
+			]
+		},
+		{
+			"name": "File Navigator",
+			"details": "https://github.com/csch0/SublimeText-File-Navigator",
+			"labels": ["file navigation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/csch0/SublimeText-File-Navigator/tags"
+				}
+			],
+			"previous_names": [
+				"Sublime File Navigator"
+			]
+		},
+		{
+			"name": "Git GUI Clients",
+			"details": "https://github.com/csch0/SublimeText-Git-GUI-Clients",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/csch0/SublimeText-Git-GUI-Clients/tags"
+				}
+			]
+		},
+		{
+			"name": "Keymap Redefiner",
+			"details": "https://github.com/csch0/SublimeText-Keymap-Redefiner",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/csch0/SublimeText-Keymap-Redefiner/tags"
+				}
+			]
+		},
+		{
+			"name": "LaTeX Blindtext",
+			"details": "https://github.com/csch0/SublimeText-LaTeX-Blindtext",
+			"labels": ["latex"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/csch0/SublimeText-LaTeX-Blindtext/tags"
+				}
+			]
+		},
+		{
+			"name": "LaTeX-cwl",
+			"author": "csch0",
+			"details": "https://github.com/LaTeXing/LaTeX-cwl",
+			"labels": ["latex"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/LaTeXing/LaTeX-cwl/tree/master"
+				}
+			]
+		},
+		{
+			"name": "oauthlib",
+			"details": "https://github.com/csch0/SublimeText-OAuthlib",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/csch0/SublimeText-OAuthlib/tags"
+				}
+			]
+		},
+		{
+			"name": "Package Reloader",
+			"details": "https://github.com/csch0/SublimeText-Package-Reloader",
+			"labels": ["development"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/csch0/SublimeText-Package-Reloader/tags"
+				}
+			]
+		},
+		{
+			"name": "Package Syncing",
+			"details": "https://github.com/csch0/SublimeText-Package-Syncing",
+			"labels": ["sync"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/csch0/SublimeText-Package-Syncing/tags"
+				}
+			]
+		},
+		{
+			"name": "Preference Helper",
+			"details": "https://github.com/csch0/SublimeText-Preference-Helper",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/csch0/SublimeText-Preference-Helper/tags"
+				}
+			]
+		},
+		{
+			"name": "Sublime Text 2 Snippets",
+			"details": "https://github.com/csch0/SublimeText-Sublime-Text-2-Snippets",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/csch0/SublimeText-Sublime-Text-2-Snippets/tree/master"
+				}
+			]
+		},
+		{
+			"name": "Sublime Text 3 Snippets",
+			"details": "https://github.com/csch0/SublimeText-Sublime-Text-3-Snippets",
+			"labels": ["snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/csch0/SublimeText-Sublime-Text-3-Snippets/tree/master"
+				}
+			]
+		},
+		{
+			"name": "TeX Live Package Manager",
+			"details": "https://github.com/csch0/SublimeText-TeX-Live-Package-Manager",
+			"labels": ["latex"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/csch0/SublimeText-TeX-Live-Package-Manager/tags"
+				}
+			]
+		},
+		{
+			"name": "TikZ",
+			"details": "https://github.com/LaTeXing/LaTeX-TikZ",
+			"labels": ["latex"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/LaTeXing/LaTeX-TikZ/tags"
+				}
+			]
+		}
+	]
+}

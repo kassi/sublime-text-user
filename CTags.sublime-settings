@@ -1,0 +1,14 @@
+{
+  "debug": true,
+  "command": "/usr/local/bin/ctags --exclude=.bundle --exclude=vendor -R -f .tags",
+  "filters" : {
+      "source.python": {"type":"^i$"}
+  },
+  "definition_filters": {
+      "source.php": {"type":"^v$"}
+  },
+  "definition_current_first": true,
+  "show_context_menus": true,
+  "extra_tag_paths" : [],
+  "extra_tag_files" : [".gemtags"]
+}

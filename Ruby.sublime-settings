@@ -1,0 +1,4 @@
+{
+    "tab_size": 2,
+    "extensions": ["Guardfile", "Thorfile", ".thor"]
+}

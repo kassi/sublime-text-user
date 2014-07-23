@@ -1,0 +1,5 @@
+{
+    // Skip this file names
+    "rejected_files": ["devise.en.yml"]
+
+}

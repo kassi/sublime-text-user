@@ -1,0 +1,20 @@
+{
+    "schema_version": "1.2",
+    "packages": [
+        {
+            "name": "AutoComments",
+            "description": "Auto add head comments in js,css,py files with shortcut key",
+            "author": "soncy",
+            "homepage": "https://github.com/soncy/AutoComments-for-Sublime-Text-2",
+            "last_modified": "2013-05-20 12:16:21",
+            "platforms": {
+                "*": [
+                    {
+                        "version": "0.1.6",
+                        "url": "https://github.com/soncy/AutoComments-for-Sublime-Text-2/archive/v0.1.6.zip"
+                    }
+                ]
+            }
+        }
+    ]
+}

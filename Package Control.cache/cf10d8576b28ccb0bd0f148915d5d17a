@@ -1,0 +1,20 @@
+{
+    "schema_version": "1.2",
+    "packages": [
+        {
+            "name": "AMD Module Editor",
+            "description": "Easy modification of your AMD/RequireJS module dependency list",
+            "author": "William Blasko",
+            "homepage": "https://github.com/wukkuan/AMD-Module-Editor",
+            "last_modified": "2012-08-30 17:04:00",
+            "platforms": {
+                "*": [
+                    {
+                        "version": "1.0.3",
+                        "url": "https://nodeload.github.com/wukkuan/AMD-Module-Editor/zipball/1.0.3"
+                    }
+                ]
+            }
+        }
+    ]
+}

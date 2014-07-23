@@ -1,0 +1,115 @@
+{
+	"auto_upgrade_ignore":
+	[
+		"GuardHelpers",
+		"XMPFilter"
+	],
+	"caret_style": "smooth",
+	"color_scheme": "Packages/Phix Color Scheme/Phix Dark.tmTheme",
+	"dictionary": "Packages/Language - English/en_GB.dic",
+	"ensure_newline_at_eof_on_save": true,
+	"fallback_encoding": "UTF-8",
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db"
+	],
+	"folder_exclude_patterns":
+	[
+		".bundle",
+		".git",
+		".hg",
+		".svn",
+		"CVS",
+		"coverage",
+		"doc",
+		"log",
+		"tmp"
+	],
+	"font_size": 14,
+	"highlight_line": false,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"install_prereleases": true,
+	"perl_cmd": "/Users/karsten.silkenbaeume/perl5/perlbrew/perls/perl-5.12.2/bin/perl",
+	"perlcritic_cmd": "/Users/karsten.silkenbaeume/perl5/perlbrew/perls/perl-5.12.2/bin/perlcritic",
+	"perltidy_cmd": "/Users/karsten.silkenbaeume/perl5/perlbrew/perls/perl-5.12.2/bin/perltidy",
+	"perltidy_options":
+	[
+		"-pbp",
+		"-l",
+		"120"
+	],
+	"phoenix_color_expanded_folder": true,
+	"phoenix_color_green": true,
+	"phoenix_highlight_current_tab": true,
+	"phoenix_tabs_small": true,
+	"rulers":
+	[
+		80,
+		100
+	],
+	"show_full_path": true,
+	"tab_size": 2,
+	"theme": "Soda Dark.sublime-theme",
+	"todo":
+	{
+		"case_sensitive": true,
+		"file_exclude_patterns":
+		[
+			"*.pyc",
+			"*.pyo",
+			"*.o",
+			"*.a",
+			".DS_Store",
+			"*.class",
+			"*.psd",
+			"*.db",
+			"*.min.css",
+			"*.min.js",
+			"*sc.js",
+			".tags*",
+			"gems.tags",
+			"tags",
+			"*.gz"
+		],
+		"folder_exclude_patterns":
+		[
+			".bundle",
+			".git",
+			"assets",
+			"htdocs",
+			"log",
+			"tmp",
+			"coverage",
+			"vendor"
+		],
+		"patterns":
+		{
+			"PENDING": "pending[\\s]*?\\(\"(?P<pending>.*)\"\\)$"
+		}
+	},
+	"translate_tabs_to_spaces": true,
+	"trim_hidden_characters_on_save": true,
+	"trim_trailing_white_space_on_save": true
+}

@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+### Options and Arguments
+### Program Options and Arguments
+use Getopt::Long;
+use Pod::Usage;
+
+our %opts = ( verbose => 0 );
+Getopt::Long::Configure('bundling');
+Getopt::Long::GetOptions( \%opts,
+    'help|h',
+    'verbose|v+',
+);
+Pod::Usage::pod2usage( -verbose => 1 ) if $opts{help};
+Pod::Usage::pod2usage( -message => 'Error: missing argument »password«.', -exitval => 1 ) if ! $ARGV[0];
+
+### End of Options and Arguments
+]]></content>
+    <tabTrigger>getopt</tabTrigger>
+    <scope>source.perl</scope>
+</snippet>

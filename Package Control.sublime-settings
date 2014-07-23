@@ -1,0 +1,32 @@
+{
+	"installed_packages":
+	[
+		"Alignment",
+		"ApacheConf.tmLanguage",
+		"Bash Build System",
+		"BracketHighlighter",
+		"ChangeQuotes",
+		"ColorPicker",
+		"CTags",
+		"ERB Snippets",
+		"Git",
+		"Git Config",
+		"GitGutter",
+		"GoToLastEdit",
+		"Guard",
+		"Hasher",
+		"JavaScript & NodeJS Snippets",
+		"Markdown Preview",
+		"Phix Color Scheme",
+		"Pretty JSON",
+		"Prolog",
+		"Quick File Creator",
+		"RubyTest",
+		"Sass",
+		"Shell Command",
+		"SideBarEnhancements",
+		"SideBarGit",
+		"Theme - Soda",
+		"WordHighlight"
+	]
+}

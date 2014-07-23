@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+class ${1:ClassName}Test < Test::Unit::TestCase
+
+  test '${2:should}' do
+    ${3:assert}
+  end
+end
+]]></content>
+  <tabTrigger>testcase</tabTrigger>
+  <scope>source.ruby</scope>
+</snippet>

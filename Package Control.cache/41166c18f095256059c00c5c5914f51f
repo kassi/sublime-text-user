@@ -1,0 +1,20 @@
+{
+    "schema_version": "1.2",
+    "packages": [
+        {
+            "name": "ofLang",
+            "description": "Open Frameworks code completion.",
+            "author": "Carl Calderon & Martin Lindelöf",
+            "homepage": "https://github.com/carlcalderon/ofLang",
+            "last_modified": "2013-04-04 00:00:00",
+            "platforms": {
+                "*": [
+                    {
+                        "version": "0.0.7",
+                        "url": "https://nodeload.github.com/carlcalderon/ofLang/zip/0.0.7"
+                    }
+                ]
+            }
+        }
+    ]
+}

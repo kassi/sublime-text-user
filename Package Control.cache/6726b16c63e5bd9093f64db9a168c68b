@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.2",
+  "packages": [
+    {
+      "name": "Phing",
+      "description": "Run phing targets right from Sublime text 2",
+      "author": "nLight",
+      "homepage": "https://github.com/nLight/Phing",
+      "last_modified": "2012-09-30 01:20:00",
+      "platforms": {
+        "osx": [
+          {
+            "version": "1.0.1",
+            "url": "https://nodeload.github.com/nLight/Phing/zipball/v1.0.1"
+          }
+        ],
+        "linux": [
+          {
+            "version": "1.0.1",
+            "url": "https://nodeload.github.com/nLight/Phing/zipball/v1.0.1"
+          }
+        ]
+      }
+    }
+  ]
+}

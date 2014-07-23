@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+    MT->log({
+        message => scalar Data::Dumper->new([ ${1:var} ],[ '*${1}' ])->Sortkeys(1)->Dump(),
+        class   => 'system',
+        level   => MT::Log::DEBUG(),
+    });use Data::Dumper;# TODO Remove Dumper
+]]></content>
+	<tabTrigger>mtlog</tabTrigger>
+	<scope>source.perl</scope>
+</snippet>

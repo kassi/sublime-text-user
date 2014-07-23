@@ -1,0 +1,20 @@
+{
+	"schema_version": "1.2",
+	"packages": [
+		{
+			"name": "jsrevival",
+			"description": "Another interface to jslint. Base on jsrevival node package. Require node and jsrevival",
+			"author": "sdolard <sdolard@gmail.com>",
+			"homepage": "https://github.com/sdolard/sublime-jsrevival",
+			"last_modified": "2014-01-18 23:08:00",
+			"platforms": {
+				"*": [
+					{
+						"version": "0.1.1",
+						"url": "https://nodeload.github.com/sdolard/sublime-jsrevival/zip/v0.1.1"
+					}
+				]
+			}
+		}
+	]
+}

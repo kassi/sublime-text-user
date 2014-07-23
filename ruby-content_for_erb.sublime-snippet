@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[<% content_for :${1:name} do -%>
+		$2
+<% end -%>
+  ]]></content>
+  <tabTrigger>cf</tabTrigger>
+  <scope>text.html.ruby</scope>
+  <description>output content_for ERB</description>
+</snippet>

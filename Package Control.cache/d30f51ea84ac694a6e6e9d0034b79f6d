@@ -1,0 +1,128 @@
+{
+    "schema_version": "2.0",
+    "packages": [
+        {
+            "name": "AlignTab",
+            "description": "An alignment plugin using regular expression",
+            "author": "randy3k",
+            "details": "https://github.com/randy3k/AlignTab",
+            "releases": [
+                {
+                    "sublime_text": "<3000",
+                    "version": "1.2.3",
+                    "url": "https://codeload.github.com/randy3k/AlignTab/zip/1.2.3",
+                    "date": "2014-02-25 12:00:00"
+                },
+                {
+                    "sublime_text": ">=3000",
+                    "details": "https://github.com/randy3k/AlignTab/tags"
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/randy3k/AutoWrap",
+            "releases": [
+                {
+                    "sublime_text": "*",
+                    "details": "https://github.com/randy3k/AutoWrap/tags"
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/randy3k/ChangeList",
+            "releases": [
+                {
+                    "sublime_text": "*",
+                    "details": "https://github.com/randy3k/ChangeList/tags"
+                }
+            ],
+            "previous_names": [
+                "Change List (Last Edit)"
+            ]
+        },
+        {
+            "name": "LaTeX-Plus",
+            "details": "https://github.com/randy3k/LaTeX-Plus",
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "details": "https://github.com/randy3k/LaTeX-Plus/tags"
+                }
+            ],
+            "previous_names": ["LaTeXSq", "LaTeXSQ"]
+        },
+        {
+            "name": "LaTeXTab",
+            "details": "https://github.com/randy3k/LaTeXTab",
+            "releases": [
+                {
+                    "sublime_text": "*",
+                    "details": "https://github.com/randy3k/LaTeXTab/tags"
+                }
+            ]
+        },
+        {
+            "name": "UnitTesting",
+            "details": "https://github.com/randy3k/UnitTesting",
+            "releases": [
+                {
+                    "sublime_text": "*",
+                    "details": "https://github.com/randy3k/UnitTesting/tags"
+                }
+            ]
+        },        
+        {
+            "details": "https://github.com/randy3k/Enhanced-R",
+            "releases": [
+                {
+                    "sublime_text": "*",
+                    "details": "https://github.com/randy3k/Enhanced-R/tags"
+                }
+            ],
+            "previous_names": [
+                "Enhanced R"
+            ]
+        },
+        {
+            "details": "https://github.com/randy3k/R-Box",
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "details": "https://github.com/randy3k/R-Box/tags"
+                }
+            ],
+            "labels": ["Enhanced R"]
+        },        
+        {
+            "name": "Syntax Manager",
+            "details": "https://github.com/randy3k/SyntaxMgr",
+            "releases": [
+                {
+                    "sublime_text": "*",
+                    "details": "https://github.com/randy3k/SyntaxMgr/tags"
+                }
+            ]
+        },
+        {
+            "name": "Whitespace",
+            "details": "https://github.com/randy3k/Whitespace",
+            "releases": [
+                {
+                    "sublime_text": "*",
+                    "details": "https://github.com/randy3k/Whitespace/tags"
+                }
+            ]
+        },        
+        {
+            "name": "Wombat Extended",
+            "details": "https://github.com/randy3k/Wombat-Extended",
+            "releases": [
+                {
+                    "sublime_text": "*",
+                    "details": "https://github.com/randy3k/Wombat-Extended/tree/master"
+                }
+            ],
+            "labels": ["color scheme"]
+        }        
+    ]
+}

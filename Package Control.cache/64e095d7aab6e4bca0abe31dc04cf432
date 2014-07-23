@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.2",
+  "packages": [
+    {
+      "name": "KnifeSolo",
+      "description": "sublime text 2 plugin that provides some knife solo command.",
+      "author": "amazedkoumei",
+      "homepage": "https://github.com/amazedkoumei/SublimeKnifeSolo",
+      "last_modified": "2012-04-15 15:30:00",
+      "platforms": {
+        "osx": [
+          {
+            "version": "1.0.1",
+            "url": "https://nodeload.github.com/amazedkoumei/SublimeKnifeSolo/tree/zip/v1.0.1"
+          }
+        ]
+      }
+    }
+  ]
+}

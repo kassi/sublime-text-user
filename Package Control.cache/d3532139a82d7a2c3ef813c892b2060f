@@ -1,0 +1,35 @@
+{
+    "schema_version": "2.0",
+    "packages": [
+        {
+
+            "name": "ColorPicker",
+            "author": "Weslly H.",
+            "description": "A multi-platform color picker plugin",
+            "homepage": "http://weslly.github.io/ColorPicker/",
+            "details": "https://github.com/weslly/ColorPicker",
+            "releases": [
+                {
+                    "sublime_text": "*",
+                    "details": "https://github.com/weslly/ColorPicker/tags"
+                }
+            ]
+        },
+
+        {
+
+            "name": "Nettuts+ Fetch",
+            "author": "Weslly H.",
+            "description": "Fetch the latest version of remote files and zip packages",
+            "homepage": "http://net.tutsplus.com/articles/news/introducing-nettuts-fetch/",
+            "details": "https://github.com/weslly/Nettuts-Fetch",
+            "releases": [
+                {
+                    "sublime_text": "*",
+                    "details": "https://github.com/weslly/Nettuts-Fetch/tags"
+                }
+            ]
+        }
+
+    ]
+}

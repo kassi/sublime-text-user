@@ -1,0 +1,53 @@
+<snippet>
+  <content><![CDATA[
+%!bp -g "['${1:name}.pro']"
+% @file:        ${1}.pro
+% @author:      Karsten Silkenbäumer
+% @description  Solve a symbolic riddle of the following form (symbols replaced with letters)
+%
+%
+%
+% @gccode:
+% @system:      b-prolog
+% @run:         bp -g "['${1}.pro']"
+
+:-
+    write('------------------------------'),nl,
+    statistics(runtime,[Start|_]),
+    run,
+    statistics(runtime,[End|_]),
+    T is End-Start,
+    write('------------------------------'),nl,
+    write('execution time: '),write(T),write(' milliseconds'),nl.
+
+run:-
+    vars(Vars),
+    labeling(Vars),
+    display_board(Vars).
+
+vars(Vars):-
+    Vars = [A,B,C,D,E,F,G,H,I,J],
+    [A,B,C,D,E] in 1..9,
+    [F,G,H,I,J] in 0..9,
+    alldifferent([A,B,C,D,E,F,G,H,I,J]),
+    true.
+
+display_board([A,B,C,D,E,F,G,H,I,J]):-
+    write('A = '),write(A),nl,
+    write('B = '),write(B),nl,
+    write('C = '),write(C),nl,
+    write('D = '),write(D),nl,
+    write('E = '),write(E),nl,
+    write('F = '),write(F),nl,
+    write('G = '),write(G),nl,
+    write('H = '),write(H),nl,
+    write('I = '),write(I),nl,
+    write('J = '),write(J),nl,
+    write('N 53° '),write(A),write(B),write('.'),write(C),write(D),write(E),nl,
+    write('E 19° '),write(F),write(G),write('.'),write(H),write(I),write(J),nl.
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>bprolog</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.prolog</scope>
+</snippet>

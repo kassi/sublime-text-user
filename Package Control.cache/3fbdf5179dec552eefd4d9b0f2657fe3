@@ -1,0 +1,31 @@
+{
+  "schema_version": "2.0",
+  "packages": [
+    {
+      "name": "Pandoc",
+      "details": "https://github.com/tbfisher/sublimetext-Pandoc",
+      "labels": [
+        "latex",
+        "github flavored markdown",
+        "github markdown",
+        "html",
+        "markdown",
+        "markup",
+        "pandoc",
+        "reStructuredText",
+        "text manipulation",
+        "textile"
+      ],
+      "releases": [
+        {
+          "sublime_text": "<3000",
+          "details": "https://github.com/tbfisher/sublimetext-Pandoc/tree/1.x"
+        },
+        {
+          "sublime_text": ">=3000",
+          "details": "https://github.com/tbfisher/sublimetext-Pandoc/tree/master"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+## Author
+
+Karsten Silkenbäumer
+
+[![endorse](http://api.coderwall.com/ksi/endorsecount.png)](http://coderwall.com/ksi)
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>author</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html.markdown</scope>
+</snippet>

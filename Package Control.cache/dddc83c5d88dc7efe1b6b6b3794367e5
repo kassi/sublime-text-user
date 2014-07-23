@@ -1,0 +1,305 @@
+{
+  "schema_version": "2.0",
+  "packages": [
+    {
+      "name": "zenburn",
+      "description": "Zenburn color scheme.",
+      "author": "Colin T.A. Gray (colinta)",
+      "homepage": "http://colinta.com/projects/zenburn_color_scheme.html",
+      "labels": ["color scheme", "theme"],
+      "details": "https://github.com/colinta/zenburn",
+      "releases": [
+        {
+          "details": "https://github.com/colinta/zenburn/tags"
+        }
+      ]
+    },
+    {
+      "name": "MoveText",
+      "description": "Select text and drag it around, or setup a text tunnel to move code from one location to another.",
+      "author": "Colin T.A. Gray (colinta)",
+      "details": "https://github.com/colinta/SublimeMoveText",
+      "labels": ["formatting", "text manipulation"],
+      "releases": [
+        {
+          "details": "https://github.com/colinta/SublimeMoveText/tree/st2",
+          "sublime_text": "<3000"
+        },
+        {
+          "details": "https://github.com/colinta/SublimeMoveText/tags",
+          "sublime_text": ">=3000"
+        }
+      ]
+    },
+    {
+      "name": "TransposeCharacter",
+      "description": "Swaps two characters, lines, words, or reverses a selection.  Depending on cursor location and selection(s).",
+      "author": "Colin T.A. Gray (colinta)",
+      "details": "https://github.com/colinta/SublimeTransposeCharacter",
+      "labels": ["text manipulation"],
+      "releases": [
+        {
+          "details": "https://github.com/colinta/SublimeTransposeCharacter/tree/st2",
+          "sublime_text": "<3000"
+        },
+        {
+          "details": "https://github.com/colinta/SublimeTransposeCharacter/tags",
+          "sublime_text": ">=3000"
+        }
+      ]
+    },
+    {
+      "name": "Bracketeer",
+      "description": "Some bracket manipulation, selection, and insertion commands.",
+      "details": "https://github.com/colinta/SublimeBracketeer",
+      "labels": ["formatting", "text manipulation"],
+      "releases": [
+        {
+          "details": "https://github.com/colinta/SublimeBracketeer/tree/st2",
+          "sublime_text": "<3000"
+        },
+        {
+          "details": "https://github.com/colinta/SublimeBracketeer/tags",
+          "sublime_text": ">=3000"
+        }
+      ]
+    },
+    {
+      "name": "Quickfind",
+      "description": "Works similarly to TextMate's ctrl+s.  But if text is already selected, it will be the default search.  Keep pressing ctrl+s to search for the next instance.",
+      "author": "Colin T.A. Gray (colinta)",
+      "details": "https://github.com/colinta/SublimeQuickfind",
+      "labels": ["file navigation", "search"],
+      "releases": [
+        {
+          "details": "https://github.com/colinta/SublimeQuickfind/tree/st2",
+          "sublime_text": "<3000"
+        },
+        {
+          "details": "https://github.com/colinta/SublimeQuickfind/tags",
+          "sublime_text": ">=3000"
+        }
+      ]
+    },
+    {
+      "name": "SimpleMovements",
+      "description": "Adds caret moving and newline entering commands.",
+      "author": "Colin T.A. Gray (colinta)",
+      "details": "https://github.com/colinta/SublimeSimpleMovements",
+      "labels": ["file navigation", "text manipulation"],
+      "releases": [
+        {
+          "details": "https://github.com/colinta/SublimeSimpleMovements/tree/st2",
+          "sublime_text": "<3000"
+        },
+        {
+          "details": "https://github.com/colinta/SublimeSimpleMovements/tags",
+          "sublime_text": ">=3000"
+        }
+      ]
+    },
+    {
+      "name": "StringEncode",
+      "description": "Converts characters from one encoding to another using a transformation (think HTML entities, not character encodings).",
+      "author": "Colin T.A. Gray (colinta)",
+      "details": "https://github.com/colinta/SublimeStringEncode",
+      "labels": ["text manipulation"],
+      "releases": [
+        {
+          "details": "https://github.com/colinta/SublimeStringEncode/tree/master",
+          "sublime_text": "<3000"
+        },
+        {
+          "details": "https://github.com/colinta/SublimeStringEncode/tags",
+          "sublime_text": ">=3000"
+        }
+      ]
+    },
+    {
+      "name": "FileDiffs",
+      "description": "Shows diffs between the current file, or selection(s) in the current file, and clipboard, another file, or unsaved changes.  With contributions from Sebastian Pape (spape) and Jiri Urban (jiriurban)",
+      "author": "Colin T.A. Gray (colinta)",
+      "details": "https://github.com/colinta/SublimeFileDiffs",
+      "labels": ["diff/merge"],
+      "releases": [
+        {
+          "details": "https://github.com/colinta/SublimeFileDiffs/tags"
+        }
+      ]
+    },
+    {
+      "name": "MarkAndMove",
+      "description": "Allows for keyboard-only multiple selections.  Select some stuff, mark it, then move the cursor around and add more marks, recall marks, or move between marks.",
+      "author": "Colin T.A. Gray (colinta)",
+      "details": "https://github.com/colinta/SublimeMarkAndMove",
+      "labels": ["file navigation"],
+      "releases": [
+        {
+          "details": "https://github.com/colinta/SublimeMarkAndMove/tree/st2",
+          "sublime_text": "<3000"
+        },
+        {
+          "details": "https://github.com/colinta/SublimeMarkAndMove/tags",
+          "sublime_text": ">=3000"
+        }
+      ]
+    },
+    {
+      "name": "ChangeQuotes",
+      "description": "Converts single to double or double to single quotes.  Attempts to preserve correct escaping, though this could be improved I'm sure.",
+      "author": "Colin T.A. Gray (colinta)",
+      "details": "https://github.com/colinta/SublimeChangeQuotes",
+      "labels": ["text manipulation"],
+      "releases": [
+        {
+          "details": "https://github.com/colinta/SublimeChangeQuotes/tree/st2",
+          "sublime_text": "<3000"
+        },
+        {
+          "details": "https://github.com/colinta/SublimeChangeQuotes/tags",
+          "sublime_text": ">=3000"
+        }
+      ]
+    },
+    {
+      "name": "Clipboard Manager",
+      "description": "A version of the Sublime Text 2 plugin at <http://www.sublimetext.com/forum/viewtopic.php?f=5&t=2260&start=0> that makes for TextMate-like clipboard history.  Based on Clipboard History, by AJ Palkovic (ajpalkovic) and Martin Aspeli (optilude)",
+      "author": "Colin T.A. Gray (colinta)",
+      "homepage": "https://gist.github.com/1590661",
+      "details": "https://github.com/colinta/SublimeClipboardManager",
+      "labels": ["clipboard"],
+      "releases": [
+        {
+          "details": "https://github.com/colinta/SublimeClipboardManager/tree/st2",
+          "sublime_text": "<3000"
+        },
+        {
+          "details": "https://github.com/colinta/SublimeClipboardManager/tags",
+          "sublime_text": ">=3000"
+        }
+      ]
+    },
+    {
+      "name": "ApacheConf.tmLanguage",
+      "description": "For htaccess and .conf files.  By GreyWyvern, with assist by radiosilence.  <http://www.sublimetext.com/forum/viewtopic.php?f=5&t=856>.",
+      "author": "GreyWyvern and radiosilence",
+      "details": "https://github.com/colinta/ApacheConf.tmLanguage",
+      "labels": ["language syntax"],
+      "releases": [
+        {
+          "details": "https://github.com/colinta/ApacheConf.tmLanguage/tags"
+        }
+      ]
+    },
+    {
+      "name": "Calculate",
+      "description": "Calculations using python.  Also provides some number-related functions, like counting (across multiple selections).  With contributions from Subhas Dandapani (rdsubhas), Alexander Kirk (akirk), and Kroum Tzanev (kpym)",
+      "author": "Colin T.A. Gray (colinta)",
+      "details": "https://github.com/colinta/SublimeCalculate",
+      "labels": ["calculator"],
+      "releases": [
+        {
+          "details": "https://github.com/colinta/SublimeCalculate/tree/st2",
+          "sublime_text": "<3000"
+        },
+        {
+          "details": "https://github.com/colinta/SublimeCalculate/tags",
+          "sublime_text": ">=3000"
+        }
+      ]
+    },
+    {
+      "name": "SetSyntax",
+      "description": "Some generic keyboard bindings for 'Set Syntax:'",
+      "author": "Colin T.A. Gray (colinta)",
+      "details": "https://github.com/colinta/SublimeSetSyntax",
+      "labels": ["language syntax"],
+      "releases": [
+        {
+          "details": "https://github.com/colinta/SublimeSetSyntax/tree/st2",
+          "sublime_text": "<3000"
+        },
+        {
+          "details": "https://github.com/colinta/SublimeSetSyntax/tags",
+          "sublime_text": ">=3000"
+        }
+      ]
+    },
+    {
+      "name": "DuplicateSelections",
+      "description": "If you have an equal number of empty selections (cursors) and selections, this command will place each selection at the corresponding cursor location.",
+      "author": "Colin T.A. Gray (colinta)",
+      "details": "https://github.com/colinta/SublimeDuplicateSelections",
+      "labels": ["text manipulation"],
+      "releases": [
+        {
+          "details": "https://github.com/colinta/SublimeDuplicateSelections/tree/st2",
+          "sublime_text": "<3000"
+        },
+        {
+          "details": "https://github.com/colinta/SublimeDuplicateSelections/tags",
+          "sublime_text": ">=3000"
+        }
+      ]
+    },
+    {
+      "name": "ScreencastDirector",
+      "description": "This is how I make screencasts on <http://colinta.com>.",
+      "author": "Colin T.A. Gray (colinta)",
+      "details": "https://github.com/colinta/SublimeScreencastDirector",
+      "labels": ["automation"],
+      "releases": [
+        {
+          "details": "https://github.com/colinta/SublimeScreencastDirector/tree/st2",
+          "sublime_text": "<3000"
+        },
+        {
+          "details": "https://github.com/colinta/SublimeScreencastDirector/tags",
+          "sublime_text": ">=3000"
+        }
+      ]
+    },
+    {
+      "name": "TextFormatting",
+      "description": "Adds text-formatting tricks to Sublime Text.  Mostly for PEP8 formatting.",
+      "author": "Colin T.A. Gray (colinta)",
+      "details": "https://github.com/colinta/SublimeTextFormatting",
+      "labels": ["formatting", "text manipulation"],
+      "releases": [
+        {
+          "details": "https://github.com/colinta/SublimeTextFormatting/tree/st2",
+          "sublime_text": "<3000"
+        },
+        {
+          "details": "https://github.com/colinta/SublimeTextFormatting/tags",
+          "sublime_text": ">=3000"
+        }
+      ]
+    },
+    {
+      "name": "INDY500",
+      "description": "The original INDY500 game for Sublime Text.  Yes.  You read that right.",
+      "author": "Colin T.A. Gray (colinta)",
+      "details": "https://github.com/colinta/INDY500",
+      "labels": ["game"],
+      "releases": [
+        {
+          "details": "https://github.com/colinta/INDY500/tags"
+        }
+      ]
+    },
+    {
+      "name": "Android",
+      "description": "Commands to assist in Android development",
+      "author": "Colin T.A. Gray (colinta)",
+      "details": "https://github.com/colinta/SublimeTextAndroid",
+      "labels": ["android"],
+      "releases": [
+        {
+          "details": "https://github.com/colinta/SublimeTextAndroid/tags",
+          "sublime_text": ">=3000"
+        }
+      ]
+    }
+  ]
+}
