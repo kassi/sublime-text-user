@@ -7,6 +7,24 @@ class AddCurrentIsoTimeCommand(sublime_plugin.TextCommand):
       if region.empty():
         self.view.insert(edit, region.begin(), strftime("%Y-%m-%dT%H:%M:%SZ"))
 
+class SwitchColorSetCommand(sublime_plugin.WindowCommand):
+  def run(self, **args):
+    config = {
+      "dark": {
+        "color_scheme": "Packages/Phix Color Scheme/Phix Dark.tmTheme",
+        "theme": "Soda Dark.sublime-theme"
+      },
+      "light": {
+        "color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
+        "theme": "Soda Light.sublime-theme"
+        }
+    }
+    s = sublime.load_settings("Preferences.sublime-settings")
+    new_set = args["name"]
+    s.set("color_scheme", config[new_set]["color_scheme"])
+    s.set("theme", config[new_set]["theme"])
+    sublime.save_settings("Preferences.sublime-settings")
+
 class TransformPlugin(sublime_plugin.TextCommand):
     def transform(self, s):
         return s

@@ -10,5 +10,15 @@
   {
     "caption": "User: Add current ISO time",
     "command": "add_current_iso_time"
+  },
+  {
+    "caption": "User: Switch Color to Dark",
+    "command": "switch_color_set",
+    "args": { "name": "dark" }
+  },
+  {
+    "caption": "User: Switch Color to Light",
+    "command": "switch_color_set",
+    "args": { "name": "light" }
   }
 ]
