@@ -1,6 +1,16 @@
 import sublime, sublime_plugin
 import re
 
+class UserListenerCommand(sublime_plugin.EventListener):
+    # Manage when to kick off bracket matching.
+    # Try and reduce redundant requests by letting the
+    # background thread ensure certain needed match occurs
+    def on_load(self, view):
+        filename = view.file_name()
+
+        if filename is not None:
+            view.set_status('filename', filename)
+
 class AddCurrentIsoTimeCommand(sublime_plugin.TextCommand):
   def run(self, edit):
     for region in self.view.sel():
