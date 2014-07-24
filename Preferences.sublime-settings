@@ -29,7 +29,9 @@
 		".DS_Store",
 		"*.class",
 		"*.psd",
-		"*.db"
+		"*.db",
+		".tags",
+		".tags_sorted_by_file"
 	],
 	"folder_exclude_patterns":
 	[
@@ -90,7 +92,8 @@
 			"*sc.js",
 			".tags*",
 			"gems.tags",
-			"tags",
+			".tags",
+			".tags_sorted_by_file",
 			"*.gz"
 		],
 		"folder_exclude_patterns":
