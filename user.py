@@ -1,6 +1,12 @@
 import sublime, sublime_plugin
 import re
 
+class AddCurrentIsoTimeCommand(sublime_plugin.TextCommand):
+  def run(self, edit):
+    for region in self.view.sel():
+      if region.empty():
+        self.view.insert(edit, region.begin(), strftime("%Y-%m-%dT%H:%M:%SZ"))
+
 class TransformPlugin(sublime_plugin.TextCommand):
     def transform(self, s):
         return s

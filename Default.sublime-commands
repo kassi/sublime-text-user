@@ -6,5 +6,9 @@
   {
     "caption": "Rails I18nify Text",
     "command": "rails_i18nify"
+  },
+  {
+    "caption": "User: Add current ISO time",
+    "command": "add_current_iso_time"
   }
 ]
