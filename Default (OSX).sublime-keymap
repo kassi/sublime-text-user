@@ -33,27 +33,27 @@
       }}
     },
 
+    // ColorPick
+    { "keys": ["alt+super+shift+c"], "command": "color_pick" },
+
     // CTags
     { "keys": ["alt+super+left"], "command": "jump_back" },
     { "keys": ["alt+super+right"], "command": "navigate_to_definition" },
     { "keys": ["f3"], "command": "navigate_to_definition" },
-
-    // Markdown Preview
-    { "keys": ["ctrl+alt+super+p"], "command": "markdown_preview", "args": { "target": "browser"} },
-
-    // PerlTidy
-    { "keys": ["super+shift+t"], "command":"perl_tidy", "context" : [ { "key": "selector", "operator": "equal", "operand": "source.perl", "match_all": true } ]},
 
     // Git
     { "keys": ["alt+super+a"], "command": "git_raw", "args": { "command": "git add", "append_current_file": true } },
     { "keys": ["alt+super+c"], "command": "git_commit" },
     { "keys": ["shift+alt+super+a"], "command": "git_add_all" },
 
-    // ColorPick
-    { "keys": ["alt+super+shift+c"], "command": "color_pick" },
-
     // Go To File
     { "keys": ["f7"], "command": "go_to_file" },
     { "keys": ["shift+f7"], "command": "file_info" },
-    { "keys": ["super+shift+2"], "command": "change_quotes" }
+    { "keys": ["super+shift+2"], "command": "change_quotes" },
+
+    // Markdown Preview
+    { "keys": ["ctrl+alt+super+p"], "command": "markdown_preview", "args": { "target": "browser"} },
+
+    // PerlTidy
+    { "keys": ["super+shift+t"], "command":"perl_tidy", "context" : [ { "key": "selector", "operator": "equal", "operand": "source.perl", "match_all": true } ]}
 ]
