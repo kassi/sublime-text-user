@@ -51,6 +51,9 @@
     { "keys": ["shift+f7"], "command": "file_info" },
     { "keys": ["super+shift+2"], "command": "change_quotes" },
 
+    // GoToLastEdit
+    { "keys": ["super+shift+#"], "command": "last_edit_line" },
+
     // Markdown Preview
     { "keys": ["ctrl+alt+super+p"], "command": "markdown_preview", "args": { "target": "browser"} },
 
