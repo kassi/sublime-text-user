@@ -2,5 +2,5 @@
     "check_for_bundler": true,
     "check_for_rvm": false,
     "ruby_use_scratch" : false,
-    "run_single_rspec_command": "rspec --seed 47299 {relative_path}:{line_number}"
+    "run_single_rspec_command": "rspec {relative_path}:{line_number}"
 }
