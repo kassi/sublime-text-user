@@ -31,7 +31,8 @@
 		"*.psd",
 		"*.db",
 		".tags",
-		".tags_sorted_by_file"
+		".tags_sorted_by_file",
+		"gems.tags"
 	],
 	"folder_exclude_patterns":
 	[
