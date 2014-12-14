@@ -1,0 +1,15 @@
+{
+  "selector": "source.js",
+  // "cmd": ["node", "$file"],
+  "cmd": ["phantomjs", "$file"],
+  "variants": [{
+    "cmd": ["js2coffee", "-i2", "$file"],
+    "name": "Compile"
+  },{
+    "name": "Harmony",
+    "cmd": ["node", "--harmony", "--use-strict" ,"$file"]
+  }],
+  "windows" : {
+    "shell": true
+  }
+}
