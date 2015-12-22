@@ -1,0 +1,4 @@
+{
+    "shell_cmd": "thor install $file --force --as=$file",
+    "selector": "source.ruby"
+}
