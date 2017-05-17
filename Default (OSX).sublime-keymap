@@ -58,5 +58,24 @@
     { "keys": ["ctrl+alt+super+p"], "command": "markdown_preview", "args": { "target": "browser"} },
 
     // PerlTidy
-    { "keys": ["super+shift+t"], "command":"perl_tidy", "context" : [ { "key": "selector", "operator": "equal", "operand": "source.perl", "match_all": true } ]}
+    { "keys": ["super+shift+t"], "command":"perl_tidy", "context" : [ { "key": "selector", "operator": "equal", "operand": "source.perl", "match_all": true } ]},
+
+    // SendREPL
+    {
+        "keys": ["super+alt+shift+f"], "command": "send_repl",
+        "args": { "cmd": "bin/cucumber \"$file\"" }
+    },
+    {
+        "keys": ["super+alt+shift+s"], "command": "send_repl",
+        "args": { "cmd": "bin/cucumber \"$file\":$line" }
+    },
+    // DashDoc
+    { "keys": ["f1"], "command": "dash_doc"},
+    { "keys": ["alt+f1"], "command": "dash_doc",
+                          "args": { "flip_syntax_sensitive": true } },
+    // SemiStandard
+    {
+        "keys": ["ctrl+alt+f"], "command": "semi_standard_format",
+        "context": [{"key": "selector", "operator": "equal", "operand": "source.js,source.json"}]
+    }
 ]
